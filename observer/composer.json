@@ -1,0 +1,27 @@
+{
+    "name": "ibrahima/observer",
+    "description": "PHP POO - Design Pattern - Observer",
+    "authors": [
+        {
+            "name": "Ibrahima D",
+            "email": "iboudiallo84@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Idiallo\\Observer\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Idiallo\\Observer\\Tests\\": "tests"
+        }
+    }
+}
